@@ -25,6 +25,7 @@ if %errorLevel% == 0 (
 ::Here we know that the program is running as Administor.
 echo [!] CONGRATULATIONS YOU'RE EXECUTING THIS AS ADMIN
 pause
+::please don't forget to exit with this command, if you don't, Resolution settings will open.
 exit
 
 :NotAdmin
