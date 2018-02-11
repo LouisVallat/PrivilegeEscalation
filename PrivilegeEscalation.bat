@@ -1,3 +1,4 @@
+::Coded by SergentThoamsKelly
 @echo off
 
 ::Firstly we want to chack if program is running as Administrator
