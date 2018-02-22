@@ -14,3 +14,5 @@ This batch will first check wether or not it's executed with admin rights. If ye
 - Virus (haha i saw you. Don't lie. You lied... Oh sigh!)
 - Launch rocket with admin rights... Because why not ?
 - I don't know what you can do with it but enjoy !
+
+```` :Admin or :notAdmin... Great question.````
