@@ -1,5 +1,5 @@
 # PrivilegeEscalation 
-### This program is a very short batch file which allows you torun anything with admin rights without prompting user.
+### This program is a very short batch file which allows you to run anything with admin rights without prompting user.
 ### This script is already commented and ready to use but please read this to understand how it actually works !!
 # The fault :
 This program is based on an easy break in windows. There are some services that are considered as trusted, so windows executes them with admin rights without warning you, because it could become a mess on your computer to have so many UAC prompts...
