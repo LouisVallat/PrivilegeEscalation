@@ -1,4 +1,4 @@
-::Coded by SergentThoamsKelly
+::Coded by LouisVallat
 @echo off
 
 ::Firstly we want to chack if program is running as Administrator
@@ -22,14 +22,18 @@ if %errorLevel% == 0 (
 )
 
 :Admin
+cls
 ::Here we know that the program is running as Administor.
 echo [!] CONGRATULATIONS YOU'RE EXECUTING THIS AS ADMIN
 pause
+cls
+::Insert here whatever command you want to execute as an admin.
+cmd
 ::please don't forget to exit with this command, if you don't, Resolution settings will open.
 exit
 
 :NotAdmin
-::Wher all the magic happens : we know we're not admin so we know also that the break is now wide open
+::Where all the magic happens : we know we're not admin so we know also that the breach is now wide open
 ::So let's let launch this piece of code by itself with admin rights !
 cls
 fodhelper.exe
